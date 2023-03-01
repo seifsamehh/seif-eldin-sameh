@@ -1,0 +1,426 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  transition: 0.5s ease-in-out;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+::selection {
+  background-color: #a5c9ff;
+  color: #101010;
+}
+a,
+button,
+img,
+h1,
+h2,
+h3,
+select {
+  user-select: none;
+}
+/* skills */
+.skill1,
+.skill2,
+.skill3,
+.skill4,
+.skill5,
+.skill6,
+.skill7,
+.skill8,
+.skill9,
+.skill10,
+.skill11,
+.skill12,
+.skill13,
+.skill14,
+.skill15,
+.skill16,
+.skill17,
+.skill18,
+.skill19,
+.skill20,
+.skill21,
+.skill22,
+.skill23 {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+@media screen and (max-width: 768px) {
+  .skill1,
+  .skill2,
+  .skill3,
+  .skill4,
+  .skill5,
+  .skill6,
+  .skill7,
+  .skill8,
+  .skill9,
+  .skill10,
+  .skill11,
+  .skill12,
+  .skill13,
+  .skill14,
+  .skill15,
+  .skill16,
+  .skill17,
+  .skill18,
+  .skill19,
+  .skill20,
+  .skill21,
+  .skill22,
+  .skill23 {
+    flex-wrap: wrap;
+  }
+}
+[data-theme="dark"] .skill1,
+[data-theme="dark"] .skill2,
+[data-theme="dark"] .skill3,
+[data-theme="dark"] .skill4,
+[data-theme="dark"] .skill5,
+[data-theme="dark"] .skill6,
+[data-theme="dark"] .skill7,
+[data-theme="dark"] .skill8,
+[data-theme="dark"] .skill9,
+[data-theme="dark"] .skill10,
+[data-theme="dark"] .skill11,
+[data-theme="dark"] .skill12,
+[data-theme="dark"] .skill13,
+[data-theme="dark"] .skill14,
+[data-theme="dark"] .skill15,
+[data-theme="dark"] .skill16,
+[data-theme="dark"] .skill17,
+[data-theme="dark"] .skill18,
+[data-theme="dark"] .skill19,
+[data-theme="dark"] .skill20,
+[data-theme="dark"] .skill21,
+[data-theme="dark"] .skill22,
+[data-theme="dark"] .skill23 {
+  background-color: rgba(16, 16, 16, 0.8);
+  backdrop-filter: blur(10px);
+}
+.skill1 .left,
+.skill2 .left,
+.skill3 .left,
+.skill4 .left,
+.skill5 .left,
+.skill6 .left,
+.skill7 .left,
+.skill8 .left,
+.skill9 .left,
+.skill10 .left,
+.skill11 .left,
+.skill12 .left,
+.skill13 .left,
+.skill14 .left,
+.skill15 .left,
+.skill16 .left,
+.skill17 .left,
+.skill18 .left,
+.skill19 .left,
+.skill20 .left,
+.skill21 .left,
+.skill22 .left,
+.skill23 .left {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(0 0, 64% 0, 100% 100%, 0% 100%);
+}
+@media screen and (max-width: 768px) {
+  .skill1 .left,
+  .skill2 .left,
+  .skill3 .left,
+  .skill4 .left,
+  .skill5 .left,
+  .skill6 .left,
+  .skill7 .left,
+  .skill8 .left,
+  .skill9 .left,
+  .skill10 .left,
+  .skill11 .left,
+  .skill12 .left,
+  .skill13 .left,
+  .skill14 .left,
+  .skill15 .left,
+  .skill16 .left,
+  .skill17 .left,
+  .skill18 .left,
+  .skill19 .left,
+  .skill20 .left,
+  .skill21 .left,
+  .skill22 .left,
+  .skill23 .left {
+    height: 50vh;
+  }
+}
+.skill1 .left {
+  background-color: #ff5733;
+}
+.skill2 .left {
+  background-color: #2965f1;
+}
+.skill3 .left {
+  background-color: #f0db4f;
+}
+.skill4 .left {
+  background-color: #0769ad;
+}
+.skill5 .left {
+  background-color: #4594cb;
+}
+.skill6 .left {
+  background-color: #bebebe;
+}
+.skill7 .left {
+  background-color: #c76494;
+}
+.skill8 .left {
+  background-color: #523a77;
+  color: #fff;
+}
+.skill9 .left {
+  background-color: #36b7f0;
+}
+.skill10 .left {
+  background-color: #d34a47;
+}
+.skill11 .left {
+  background-color: #943e59;
+  color: #fff;
+}
+.skill12 .left {
+  background-color: #c63332;
+  color: #fff;
+}
+.skill13 .left {
+  background-color: #5ed4f3;
+}
+.skill14 .left {
+  background-color: #000000;
+  color: #fff;
+}
+.skill15 .left {
+  background-color: #007bf7;
+}
+.skill16 .left {
+  background: linear-gradient(
+    343deg,
+    rgba(241, 55, 231, 1) 0%,
+    rgba(60, 122, 242, 1) 36%,
+    rgba(66, 232, 188, 1) 59%,
+    rgba(241, 55, 231, 1) 76%,
+    rgba(242, 192, 28, 1) 100%
+  );
+}
+.skill17 .left {
+  background: linear-gradient(
+    0deg,
+    rgba(135, 202, 237, 1) 0%,
+    rgba(27, 114, 182, 1) 100%
+  );
+}
+.skill18 .left {
+  background-color: #e54c2d;
+}
+.skill19 .left {
+  background-color: #161414;
+  color: #fff;
+}
+.skill20 .left {
+  background-color: #7ec226;
+}
+.skill21 .left {
+  background-color: #f0db4f;
+}
+.skill22 .left {
+  background-color: #006346;
+  color: #fff;
+}
+.skill23 .left {
+  background-color: #ed0155;
+  color: #fff;
+}
+.skill1 .left h2,
+.skill2 .left h2,
+.skill3 .left h2,
+.skill4 .left h2,
+.skill5 .left h2,
+.skill6 .left h2,
+.skill7 .left h2,
+.skill8 .left h2,
+.skill9 .left h2,
+.skill10 .left h2,
+.skill11 .left h2,
+.skill12 .left h2,
+.skill13 .left h2,
+.skill14 .left h2,
+.skill15 .left h2,
+.skill16 .left h2,
+.skill17 .left h2,
+.skill18 .left h2,
+.skill19 .left h2,
+.skill20 .left h2,
+.skill21 .left h2,
+.skill22 .left h2,
+.skill23 .left h2 {
+  font-size: 3rem;
+}
+@media screen and (max-width: 767px) {
+  .skill1 .left h2,
+  .skill2 .left h2,
+  .skill3 .left h2,
+  .skill4 .left h2,
+  .skill5 .left h2,
+  .skill6 .left h2,
+  .skill7 .left h2,
+  .skill8 .left h2,
+  .skill9 .left h2,
+  .skill10 .left h2,
+  .skill11 .left h2,
+  .skill12 .left h2,
+  .skill13 .left h2,
+  .skill14 .left h2,
+  .skill15 .left h2,
+  .skill16 .left h2,
+  .skill17 .left h2,
+  .skill18 .left h2,
+  .skill19 .left h2,
+  .skill20 .left h2,
+  .skill21 .left h2,
+  .skill22 .left h2,
+  .skill23 .left h2 {
+    font-size: 1.8rem;
+  }
+}
+/* projects */
+.projects-title {
+  background-image: url("./assests/images/project-light.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+[data-theme="dark"] .projects-title {
+  background-image: url("./assests/images/project-dark.webp");
+}
+@media screen and (max-width: 767px) {
+  .project {
+    flex-wrap: wrap;
+  }
+}
+.project1 .left,
+.project2 .left,
+.project3 .left,
+.project4 .left,
+.project5 .left,
+.project6 .left,
+.project7 .left,
+.project8 .left {
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-attachment: fixed;
+  height: 100vh;
+}
+@media screen and (max-width: 767px) {
+  .project1 .left,
+  .project2 .left,
+  .project3 .left,
+  .project4 .left,
+  .project5 .left,
+  .project6 .left,
+  .project7 .left,
+  .project8 .left {
+    background-size: contain;
+    height: 50vh;
+  }
+}
+.project1 .left {
+  background-image: url("./assests/images/image1.webp");
+}
+.project2 .left {
+  background-image: url("./assests/images/image2.webp");
+}
+.project3 .left {
+  background-image: url("./assests/images/image3.webp");
+}
+.project4 .left {
+  background-image: url("./assests/images/image4.webp");
+}
+.project5 .left {
+  background-image: url("./assests/images/image5.webp");
+}
+.project6 .left {
+  background-image: url("./assests/images/image6.webp");
+}
+.project7 .left {
+  background-image: url("./assests/images/image7.webp");
+}
+.project8 .left {
+  background-image: url("./assests/images/image8.webp");
+}
+.contact {
+  position: relative;
+}
+.contact::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  transform: rotate(45deg);
+  z-index: -1;
+  border-radius: 10px;
+  animation: rotate 20s linear infinite alternate;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+[data-theme="dark"] .contact::before {
+  background-color: #a5c9ff;
+}
+.title {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #101010, #101010, #101010);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+[data-theme="dark"] .title {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #fff, #fff, #fff);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
