@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Seif Eldin Sameh
 
-## Getting Started
+![logo](https://i.imgur.com/KBSQCIy.png)
 
-First, run the development server:
+## 🚀 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+            Welcome to my corner of the internet! I&apos;m Seif Eldin Sameh, a
+            seasoned MERN stack web developer with over 3 years of hands-on
+            experience in crafting dynamic and user-centric digital experiences.
+            My passion for turning innovative ideas into functional,
+            aesthetically pleasing websites drives my commitment to excellence
+            in every project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Light/dark mode toggle
+- Live previews
+- Cross-platform
+- Animation onscroll
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Demo
 
-## Learn More
+[Demo](https://seif-eldin-sameh.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Client:** Next, TailwindCSS, TypeScript, NextUI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Server:** Node, Express, MongoDB
 
-## Deploy on Vercel
+## Color Reference
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| Color           | Hex                                                              |
+| --------------- | ---------------------------------------------------------------- |
+| Main Color      | ![#181823](https://via.placeholder.com/10/181823?text=+) #181823 |
+| Secondary Color | ![#f6f1f1](https://via.placeholder.com/10/f6f1f1?text=+) #f6f1f1 |
+| Tertiary Color  | ![#00b5e7](https://via.placeholder.com/10/00b5e7?text=+) #00b5e7 |

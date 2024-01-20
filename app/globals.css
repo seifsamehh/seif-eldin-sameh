@@ -2,26 +2,348 @@
 @tailwind components;
 @tailwind utilities;
 
+/* start global variables */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-color: #181823;
+  --secondary-color: #f6f1f1;
+  --tertiary-color: #00b5e7;
+}
+/* end global variables */
+/* start global components */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  background-image: url("../public/assets/nnnoise.svg");
+  background-position: center;
+}
+a,
+img,
+video,
+button,
+h1,
+h2 {
+  user-select: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+}
+::-webkit-scrollbar {
+  width: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* component loader */
+.loader {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  box-shadow: 32px 0 var(--secondary-color), -32px 0 var(--secondary-color);
+  position: relative;
+  animation: flash 0.5s ease-out infinite alternate;
+}
+
+@keyframes flash {
+  0% {
+    background-color: #fff2;
+    box-shadow: 32px 0 #fff2, -32px 0 var(--secondary-color);
+  }
+  50% {
+    background-color: var(--secondary-color);
+    box-shadow: 32px 0 #fff2, -32px 0 #fff2;
+  }
+  100% {
+    background-color: #fff2;
+    box-shadow: 32px 0 var(--secondary-color), -32px 0 #fff2;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Preloader  */
+.preloader {
+  background: var(--secondary-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 30;
 }
+
+.prl-logo {
+  z-index: 1;
+}
+
+/* Sliders  */
+.lightCyan-slider,
+.persianGreen-slider,
+.white-slider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+}
+.lightCyan-slider {
+  background: var(--secondary-color);
+}
+
+.persianGreen-slider {
+  background: var(--tertiary-color);
+}
+
+.white-slider {
+  background: var(--primary-color);
+}
+
+/* navbar */
+nav {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background-color: var(--secondary-color);
+  transform: translate3d(-100%, 0, 0);
+}
+nav ul {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  list-style: none;
+}
+nav ul li {
+  font-size: 6rem;
+  color: var(--primary-color);
+  visibility: hidden;
+}
+@media screen and (max-width: 768px) {
+  nav ul li {
+    font-size: 4rem;
+  }
+}
+.menu-button {
+  position: relative;
+  z-index: 20;
+  mix-blend-mode: exclusion;
+}
+.skew {
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+}
+.vertical {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.skewback {
+  clip-path: polygon(0 0, -100% 0, 100% 100%, 0 100%);
+}
+
+/* about */
+.overlay {
+  position: sticky;
+  height: 100vh;
+  top: 0;
+}
+
+.text {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.about-text-inner,
+.projects-text-inner {
+  opacity: 0;
+  transform: translatex(50vw);
+  font-size: 7rem;
+}
+.quote-text-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transform: translatex(50vw);
+  font-size: 4rem;
+}
+.contact-text-inner {
+  opacity: 0;
+  transform: translatex(50vw);
+  font-size: 12rem;
+}
+@media screen and (max-width: 768px) {
+  .about-text-inner,
+  .projects-text-inner,
+  .contact-text-inner,
+  .quote-text-inner {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+.track {
+  height: 300vh;
+}
+
+.gradient {
+  width: 100%;
+  height: 100%;
+  background-color: var(--tertiary-color);
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  mix-blend-mode: difference;
+  background: var(--primary-color);
+  background-image: url("../public/assets/nnnoise.svg");
+  background-position: center;
+}
+
+.shape .img {
+  width: 20rem;
+  height: 20rem;
+  transform: rotate(45deg);
+}
+
+.img svg {
+  width: 100%;
+  height: 100%;
+}
+
+.img svg .hsc-img-path {
+  fill: var(--tertiary-color);
+}
+
+.overlay {
+  overflow: hidden;
+}
+
+/* projects */
+.scroller {
+  height: 100vh;
+  width: 500vw;
+  display: flex;
+  flex-direction: row;
+  will-change: transform;
+}
+
+.scroll-element {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 10rem;
+}
+@media screen and (max-width: 768px) {
+  .scroll-element {
+    padding: 1rem;
+  }
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-content: center;
+  gap: 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.items-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.item {
+  border-radius: 1rem;
+}
+
+.item-1 {
+  grid-area: 1/1/6/5;
+}
+
+.item-2 {
+  grid-area: 6/1/13/5;
+}
+
+.item-3 {
+  grid-area: 1/5/7/10;
+}
+
+.item-4 {
+  grid-area: 7/5/13/8;
+}
+
+.item-5 {
+  grid-area: 7/8/13/10;
+}
+
+.item-6 {
+  grid-area: 1/10/13/13;
+}
+
+/* contact */
+#page6 .contact-box {
+  background-image: url("/assets/ttten.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+#page6 .contact-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--tertiary-color);
+  opacity: 0.7;
+  border-radius: 1.5rem;
+  z-index: -1;
+}
+
+/* end global components */

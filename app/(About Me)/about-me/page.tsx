@@ -1,0 +1,82 @@
+import dynamic from "next/dynamic";
+import Image from "next/image";
+
+// about-page
+const AboutPage = dynamic(() => import("@/components/AboutPage"), {
+  ssr: false,
+  loading: () => (
+    <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
+      <Image
+        src="/assets/logo-trans.webp"
+        alt="Seif Eldin"
+        aria-label="Seif Eldin"
+        width={150}
+        height={150}
+        loading="lazy"
+      />
+      <span className="loader"></span>
+    </div>
+  ),
+});
+// work
+const Work = dynamic(() => import("@/components/Work"), {
+  ssr: false,
+  loading: () => (
+    <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
+      <Image
+        src="/assets/logo-trans.webp"
+        alt="Seif Eldin"
+        aria-label="Seif Eldin"
+        width={150}
+        height={150}
+        loading="lazy"
+      />
+      <span className="loader"></span>
+    </div>
+  ),
+});
+// Hire
+const Hire = dynamic(() => import("@/components/Hire"), {
+  ssr: false,
+  loading: () => (
+    <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
+      <Image
+        src="/assets/logo-trans.webp"
+        alt="Seif Eldin"
+        aria-label="Seif Eldin"
+        width={150}
+        height={150}
+        loading="lazy"
+      />
+      <span className="loader"></span>
+    </div>
+  ),
+});
+// projects
+const Projects = dynamic(() => import("@/components/Projects"), {
+  ssr: false,
+  loading: () => (
+    <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
+      <Image
+        src="/assets/logo-trans.webp"
+        alt="Seif Eldin"
+        aria-label="Seif Eldin"
+        width={150}
+        height={150}
+        loading="lazy"
+      />
+      <span className="loader"></span>
+    </div>
+  ),
+});
+
+export default function page() {
+  return (
+    <>
+      <AboutPage />
+      <Work />
+      <Hire />
+      <Projects />
+    </>
+  );
+}

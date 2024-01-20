@@ -1,8 +1,8 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
 
-// hero
-const Hero = dynamic(() => import("@/components/Hero"), {
+// projects-page
+const ProjectsPage = dynamic(() => import("@/components/ProjectsPage"), {
   ssr: false,
   loading: () => (
     <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
@@ -18,8 +18,8 @@ const Hero = dynamic(() => import("@/components/Hero"), {
     </div>
   ),
 });
-// about
-const About = dynamic(() => import("@/components/About"), {
+// contact
+const Contact = dynamic(() => import("@/components/Contact"), {
   ssr: false,
   loading: () => (
     <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
@@ -36,11 +36,11 @@ const About = dynamic(() => import("@/components/About"), {
   ),
 });
 
-export default function Home() {
+export default function page() {
   return (
-    <main>
-      <Hero />
-      <About />
-    </main>
+    <>
+      <ProjectsPage />
+      <Contact />
+    </>
   );
 }
