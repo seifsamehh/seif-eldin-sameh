@@ -4,7 +4,7 @@
 
 ## 🚀 About Me
 
-            Welcome to my corner of the internet! I&apos;m Seif Eldin Sameh, a
+            Welcome to my corner of the internet! I'm Seif Eldin Sameh, a
             seasoned MERN stack web developer with over 3 years of hands-on
             experience in crafting dynamic and user-centric digital experiences.
             My passion for turning innovative ideas into functional,
