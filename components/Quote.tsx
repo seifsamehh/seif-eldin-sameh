@@ -55,7 +55,7 @@ export default function Quote() {
     );
   });
   return (
-    <section className="quote min-h-screen">
+    <section className="quote min-h-screen min-[290px]:hidden md:block">
       <div className="track">
         <div className="overlay">
           <div className="text">

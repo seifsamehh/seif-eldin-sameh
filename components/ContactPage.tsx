@@ -68,7 +68,7 @@ export default function ContactPage() {
         <div className="contact-box bg-[#00b5e7] min-[290px]:w-[90%] md:w-[80%] min-[290px]:h-full md:h-[90vh] min-[290px]:p-8 md:p-16 min-[290px]:mb-4 md:mb-0 rounded-3xl flex justify-between items-start gap-4 min-[290px]:flex-wrap md:flex-nowrap">
           <div className="left flex justify-between items-start flex-col h-full">
             <h3
-              className={`${Franchise.className} text-[9rem] font-bold leading-[8rem]`}
+              className={`${Franchise.className} min-[290px]:text-8xl md:text-[9rem] font-bold leading-[8rem]`}
             >
               let&apos;s get in touch
             </h3>

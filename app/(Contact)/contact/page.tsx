@@ -19,7 +19,7 @@ const ContactPage = dynamic(() => import("@/components/ContactPage"), {
     </div>
   ),
 });
-// quote=
+// quote
 const Quote = dynamic(() => import("@/components/Quote"), {
   loading: () => (
     <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">

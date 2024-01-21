@@ -55,7 +55,7 @@ export default function About() {
     );
   });
   return (
-    <section className="about min-h-screen">
+    <section className="about min-h-screen min-[290px]:hidden md:block">
       <div className="track">
         <div className="overlay">
           <div className="text">

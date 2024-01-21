@@ -198,7 +198,7 @@ export default function Work() {
                   isExternal
                   href="https://ieee-community.vercel.app/"
                   color="foreground"
-                  className={`${Creattion.className} text-5xl`}
+                  className={`${Creattion.className} text-5xl text-center`}
                 >
                   IEEE Community
                 </Link>

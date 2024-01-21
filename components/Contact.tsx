@@ -55,7 +55,7 @@ export default function Contact() {
     );
   });
   return (
-    <section className="contact min-h-screen">
+    <section className="contact min-h-screen min-[290px]:hidden md:block">
       <div className="track">
         <div className="overlay">
           <div className="text">

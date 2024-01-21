@@ -7,6 +7,7 @@ import { Parallax } from "./parallax";
 import Script from "next/script";
 import PreLoader from "@/shared/PreLoader";
 import Header from "@/shared/Header";
+import CrispChat from "@/shared/CrispChat";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -219,6 +220,7 @@ export default function RootLayout({
             {children}
           </Parallax>
         </Providers>
+        <CrispChat />
         <Script
           id="structure-data"
           type="application/ld+json"

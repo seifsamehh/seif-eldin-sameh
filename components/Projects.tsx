@@ -55,7 +55,7 @@ export default function Projects() {
     );
   });
   return (
-    <section className="projects min-h-screen">
+    <section className="projects min-h-screen min-[290px]:hidden md:block">
       <div className="track">
         <div className="overlay">
           <div className="text">
