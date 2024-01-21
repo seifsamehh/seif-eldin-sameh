@@ -54,11 +54,11 @@ export default function AboutPage() {
         >
           about me about me about me
         </h1>
-        <h1
+        <h2
           className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap md:hidden min-[290px]:block`}
         >
           about me
-        </h1>
+        </h2>
       </div>
       {/* page 2 */}
       <div

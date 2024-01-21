@@ -73,11 +73,11 @@ export default function ProjectsPage() {
         >
           projects projects projects
         </h1>
-        <h1
+        <h2
           className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap md:hidden min-[290px]:block`}
         >
           projects
-        </h1>
+        </h2>
       </div>
       {/* page 4 */}
       <div id="page4">

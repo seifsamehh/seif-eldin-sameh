@@ -59,11 +59,11 @@ export default function ContactPage() {
         >
           me contact me contact me contact
         </h1>
-        <h1
+        <h2
           className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap md:hidden min-[290px]:block`}
         >
           contact me
-        </h1>
+        </h2>
       </div>
       {/* page 6 */}
       <div
