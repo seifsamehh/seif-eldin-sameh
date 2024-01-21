@@ -7,7 +7,6 @@ import { Parallax } from "./parallax";
 import Script from "next/script";
 import PreLoader from "@/shared/PreLoader";
 import Header from "@/shared/Header";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -212,12 +211,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" translate="no">
-      <Head>
-        <meta
-          name="google-site-verification"
-          content="2Hp1J2I7XeT-TuMxryhDPqIMtRPZnqL013LkTvgQW4U"
-        />
-      </Head>
       <body className={inter.className}>
         <Providers>
           <PreLoader />
@@ -230,6 +223,7 @@ export default function RootLayout({
           id="structure-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }}
+          defer
         />
       </body>
     </html>

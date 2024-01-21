@@ -26,11 +26,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.5,
     },
-    {
-      url: "https://seif-eldin-sameh.vercel.app/assets/Seif Eldin Sameh - Full Stack Web Developer.pdf",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.5,
-    },
   ];
 }

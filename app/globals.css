@@ -41,6 +41,10 @@ button {
 ::-webkit-scrollbar {
   width: 0;
 }
+::selection {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+}
 
 /* component loader */
 .loader {

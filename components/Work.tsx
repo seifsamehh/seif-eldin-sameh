@@ -1,9 +1,6 @@
 "use client";
 
-import { useGSAP } from "@gsap/react";
 import { Tabs, Tab, Card, CardBody, Chip, Link } from "@nextui-org/react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import localFont from "next/font/local";
 
 // Font files can be colocated inside of `app`
@@ -16,10 +13,7 @@ const Franchise = localFont({
   display: "swap",
 });
 
-gsap.registerPlugin(ScrollTrigger);
-
 export default function Work() {
-  useGSAP(() => {});
   return (
     <section className="work">
       <section className="lg-experience min-[290px]:hidden md:block overflow-hidden py-6">

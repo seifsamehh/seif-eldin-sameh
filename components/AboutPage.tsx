@@ -4,7 +4,6 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import localFont from "next/font/local";
-import Link from "next/link";
 
 // Font files can be colocated inside of `app`
 const Franchise = localFont({
@@ -91,7 +90,7 @@ export default function AboutPage() {
               bring a comprehensive skill set to the table, ensuring end-to-end
               development proficiency.
             </li>
-            <li>
+            <li className="my-4">
               <span className={`${Franchise.className} font-bold text-4xl`}>
                 Full-Stack Proficiency:
               </span>{" "}

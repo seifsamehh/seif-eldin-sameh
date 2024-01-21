@@ -3,15 +3,14 @@ import Image from "next/image";
 
 // about-page
 const AboutPage = dynamic(() => import("@/components/AboutPage"), {
-  ssr: false,
   loading: () => (
     <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
       <Image
         src="/assets/logo-trans.webp"
         alt="Seif Eldin"
         aria-label="Seif Eldin"
-        width={150}
-        height={150}
+        width={200}
+        height={200}
         loading="lazy"
       />
       <span className="loader"></span>
@@ -20,15 +19,14 @@ const AboutPage = dynamic(() => import("@/components/AboutPage"), {
 });
 // work
 const Work = dynamic(() => import("@/components/Work"), {
-  ssr: false,
   loading: () => (
     <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
       <Image
         src="/assets/logo-trans.webp"
         alt="Seif Eldin"
         aria-label="Seif Eldin"
-        width={150}
-        height={150}
+        width={200}
+        height={200}
         loading="lazy"
       />
       <span className="loader"></span>
@@ -37,15 +35,14 @@ const Work = dynamic(() => import("@/components/Work"), {
 });
 // Hire
 const Hire = dynamic(() => import("@/components/Hire"), {
-  ssr: false,
   loading: () => (
     <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
       <Image
         src="/assets/logo-trans.webp"
         alt="Seif Eldin"
         aria-label="Seif Eldin"
-        width={150}
-        height={150}
+        width={200}
+        height={200}
         loading="lazy"
       />
       <span className="loader"></span>

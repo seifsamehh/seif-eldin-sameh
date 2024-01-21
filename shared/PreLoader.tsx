@@ -11,6 +11,7 @@ export default function PreLoader() {
     tl.to(".lightCyan-slider", {
       x: "-10%",
       duration: 1,
+      force3D: true,
     });
 
     tl.to(
@@ -18,6 +19,7 @@ export default function PreLoader() {
       {
         x: "-20%",
         duration: 1.5,
+        force3D: true,
       },
       "-=1"
     );
@@ -27,6 +29,7 @@ export default function PreLoader() {
       {
         x: "-30%",
         duration: 1.5,
+        force3D: true,
       },
       "-=1"
     );
@@ -35,11 +38,20 @@ export default function PreLoader() {
       x: "0%",
       duration: 2,
       opacity: 1,
+      force3D: true,
+      stagger: {
+        amount: 0.3,
+      },
     });
 
     tl.to(".preloader", {
       x: "200%",
       duration: 3,
+      ease: "expo.inOut",
+      force3D: true,
+      stagger: {
+        amount: 0.3,
+      },
     });
 
     tl.fromTo(
@@ -50,6 +62,7 @@ export default function PreLoader() {
       {
         opacity: 1,
         duration: 1,
+        force3D: true,
       },
       "-=2"
     );
@@ -64,6 +77,7 @@ export default function PreLoader() {
         opacity: 1,
         duration: 1,
         y: 0,
+        force3D: true,
       },
       "-=1.5"
     );
@@ -74,9 +88,9 @@ export default function PreLoader() {
         <Image
           src="/assets/logo-trans.webp"
           alt="logo"
-          width={150}
-          height={150}
-          priority={true}
+          width={200}
+          height={200}
+          loading="lazy"
         />
       </div>
       <div className="lightCyan-slider"></div>

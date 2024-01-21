@@ -3,15 +3,14 @@ import Image from "next/image";
 
 // hero
 const Hero = dynamic(() => import("@/components/Hero"), {
-  ssr: false,
   loading: () => (
     <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
       <Image
         src="/assets/logo-trans.webp"
         alt="Seif Eldin"
         aria-label="Seif Eldin"
-        width={150}
-        height={150}
+        width={200}
+        height={200}
         loading="lazy"
       />
       <span className="loader"></span>
@@ -20,15 +19,14 @@ const Hero = dynamic(() => import("@/components/Hero"), {
 });
 // about
 const About = dynamic(() => import("@/components/About"), {
-  ssr: false,
   loading: () => (
     <div className="loading-component bg-[#181823] min-h-screen flex justify-center items-center flex-col gap-4">
       <Image
         src="/assets/logo-trans.webp"
         alt="Seif Eldin"
         aria-label="Seif Eldin"
-        width={150}
-        height={150}
+        width={200}
+        height={200}
         loading="lazy"
       />
       <span className="loader"></span>

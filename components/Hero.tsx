@@ -26,10 +26,11 @@ export default function Hero() {
       stagger: {
         amount: 0.3,
       },
+      force3D: true,
     });
     let image = document.querySelector(".reveal .seif-img");
     let tl = gsap.timeline();
-    tl.set(".reveal", { autoAlpha: 1 });
+    tl.set(".reveal", { autoAlpha: 1, force3D: true });
     tl.from(".reveal", {
       xPercent: 100,
       ease: "power2.out",
@@ -42,6 +43,7 @@ export default function Hero() {
       duration: 1.5,
       delay: -1.5,
       ease: "power2.out",
+      force3D: true,
     });
   });
   return (

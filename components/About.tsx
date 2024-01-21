@@ -25,6 +25,7 @@ export default function About() {
       scale: "30", // Convert number to string
       rotate: "240", // Convert number to string
       ease: "Expo.easeIn",
+      force3D: true,
     }).to(
       text,
       {
@@ -32,6 +33,7 @@ export default function About() {
         duration: 1,
         translateX: "0", // Convert number to string
         ease: "Power2.easeIn",
+        force3D: true,
       },
       0
     );

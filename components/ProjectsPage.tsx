@@ -48,6 +48,7 @@ export default function ProjectsPage() {
     gsap.to(".scroller", {
       xPercent: -80,
       ease: "none",
+      force3D: true,
       scrollTrigger: {
         trigger: ".scroller",
         scrub: 1,
