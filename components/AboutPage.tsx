@@ -47,18 +47,20 @@ export default function AboutPage() {
       {/* page 1 */}
       <div
         id="page"
-        className="min-h-screen overflow-hidden flex justify-center items-center"
+        className="min-h-screen overflow-hidden md:flex justify-center items-center min-[290px]:hidden"
       >
         <h1
-          className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap min-[290px]:hidden md:block`}
+          className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap`}
         >
           about me about me about me
         </h1>
-        <h2
-          className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap md:hidden min-[290px]:block`}
+      </div>
+      <div className="page-sm min-h-[50vh] overflow-hidden min-[290px]:flex justify-center items-center md:hidden">
+        <h1
+          className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap`}
         >
           about me
-        </h2>
+        </h1>
       </div>
       {/* page 2 */}
       <div

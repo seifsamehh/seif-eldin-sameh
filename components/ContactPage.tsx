@@ -52,18 +52,20 @@ export default function ContactPage() {
       {/* page 5 */}
       <div
         id="page5"
-        className="min-h-screen overflow-hidden flex justify-center items-center"
+        className="min-h-screen overflow-hidden md:flex justify-center items-center min-[290px]:hidden"
       >
         <h1
           className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap min-[290px]:hidden md:block`}
         >
           me contact me contact me contact
         </h1>
-        <h2
-          className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap md:hidden min-[290px]:block`}
+      </div>
+      <div className="page-sm min-h-[50vh] overflow-hidden min-[290px]:flex justify-center items-center md:hidden">
+        <h1
+          className={`${Franchise.className} text-[25vw] font-black uppercase whitespace-nowrap`}
         >
           contact me
-        </h2>
+        </h1>
       </div>
       {/* page 6 */}
       <div
