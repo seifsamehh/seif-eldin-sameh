@@ -69,9 +69,14 @@ export default function ProjectsPage() {
         className="min-h-screen overflow-hidden flex justify-center items-center"
       >
         <h1
-          className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap`}
+          className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap min-[290px]:hidden md:block`}
         >
           projects projects projects
+        </h1>
+        <h1
+          className={`${Franchise.className} text-[30vw] font-black uppercase whitespace-nowrap md:hidden min-[290px]:block`}
+        >
+          projects
         </h1>
       </div>
       {/* page 4 */}
