@@ -74,6 +74,8 @@ export default function Hero() {
           width={600}
           height={600}
           loading="lazy"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk2Pq8HgAEdgIdlOJI3wAAAABJRU5ErkJggg=="
         />
       </div>
     </section>

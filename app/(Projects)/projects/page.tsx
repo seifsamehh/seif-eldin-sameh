@@ -12,6 +12,8 @@ const ProjectsPage = dynamic(() => import("@/components/ProjectsPage"), {
         width={200}
         height={200}
         loading="lazy"
+        placeholder="blur"
+        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk2Pq8HgAEdgIdlOJI3wAAAABJRU5ErkJggg=="
       />
       <span className="loader"></span>
     </div>
@@ -28,6 +30,8 @@ const Contact = dynamic(() => import("@/components/Contact"), {
         width={200}
         height={200}
         loading="lazy"
+        placeholder="blur"
+        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk2Pq8HgAEdgIdlOJI3wAAAABJRU5ErkJggg=="
       />
       <span className="loader"></span>
     </div>

@@ -12,6 +12,8 @@ const AboutPage = dynamic(() => import("@/components/AboutPage"), {
         width={200}
         height={200}
         loading="lazy"
+        placeholder="blur"
+        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk2Pq8HgAEdgIdlOJI3wAAAABJRU5ErkJggg=="
       />
       <span className="loader"></span>
     </div>
@@ -28,6 +30,8 @@ const Work = dynamic(() => import("@/components/Work"), {
         width={200}
         height={200}
         loading="lazy"
+        placeholder="blur"
+        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk2Pq8HgAEdgIdlOJI3wAAAABJRU5ErkJggg=="
       />
       <span className="loader"></span>
     </div>
@@ -44,6 +48,8 @@ const Hire = dynamic(() => import("@/components/Hire"), {
         width={200}
         height={200}
         loading="lazy"
+        placeholder="blur"
+        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk2Pq8HgAEdgIdlOJI3wAAAABJRU5ErkJggg=="
       />
       <span className="loader"></span>
     </div>
@@ -61,6 +67,8 @@ const Projects = dynamic(() => import("@/components/Projects"), {
         width={150}
         height={150}
         loading="lazy"
+        placeholder="blur"
+        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk2Pq8HgAEdgIdlOJI3wAAAABJRU5ErkJggg=="
       />
       <span className="loader"></span>
     </div>
