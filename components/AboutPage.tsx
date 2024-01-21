@@ -69,7 +69,12 @@ export default function AboutPage() {
       >
         <div className="container">
           <h3
-            className={`${Franchise.className} header text-7xl text-[#00b5e7]`}
+            className={`${Franchise.className} header text-7xl text-[#00b5e7] min-[290px]:hidden md:block`}
+          >
+            professional web developer dedicated to excellence
+          </h3>
+          <h3
+            className={`${Franchise.className} text-7xl text-[#00b5e7] md:hidden min-[290px]:block`}
           >
             professional web developer dedicated to excellence
           </h3>
@@ -84,7 +89,12 @@ export default function AboutPage() {
         </div>
         <div className="container">
           <h3
-            className={`${Franchise.className} header text-7xl text-[#00b5e7]`}
+            className={`${Franchise.className} header text-7xl text-[#00b5e7] min-[290px]:hidden md:block`}
+          >
+            why choose me?
+          </h3>
+          <h3
+            className={`${Franchise.className} text-7xl text-[#00b5e7] md:hidden min-[290px]:block`}
           >
             why choose me?
           </h3>
@@ -116,7 +126,12 @@ export default function AboutPage() {
         </div>
         <div className="container">
           <h3
-            className={`${Franchise.className} header text-7xl text-[#00b5e7]`}
+            className={`${Franchise.className} header text-7xl text-[#00b5e7] min-[290px]:hidden md:block`}
+          >
+            what sets me apart?
+          </h3>
+          <h3
+            className={`${Franchise.className} text-7xl text-[#00b5e7] md:hidden min-[290px]:block`}
           >
             what sets me apart?
           </h3>
