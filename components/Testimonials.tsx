@@ -238,7 +238,7 @@ export default function Testimonials() {
               Seif Eldin Sameh is an exceptional Full Stack Web Developer who
               consistently exceeds expectations. His technical acumen, combined
               with a keen eye for detail, results in web solutions that are not
-              only functional but also aesthetically pleasing. Seif&apoos;s
+              only functional but also aesthetically pleasing. Seif&apos;s
               dedication to staying abreast of industry trends ensures that his
               work is always at the forefront of innovation.
               <svg
