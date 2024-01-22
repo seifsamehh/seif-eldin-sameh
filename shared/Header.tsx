@@ -159,6 +159,14 @@ export default function Header() {
             />
           </svg>
         </button>
+        <Link
+          href={"/assets/Seif-Eldin-Sameh-full-stack-developer.pdf"}
+          download="My-Resume😌.pdf"
+          title="Resume"
+          aria-label="Resume"
+        >
+          Resume
+        </Link>
       </div>
     </header>
   );
