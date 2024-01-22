@@ -32,7 +32,7 @@ export default function Hire() {
     <section className="hire min-[290px]:hidden md:block">
       <section className="cooperate overflow-hidden py-6">
         <div className="content flex justify-center items-center">
-          <div className="images flex justify-center items-center gap-4 flex-wrap max-w-4xl">
+          <div className="images flex justify-center items-center gap-4 flex-wrap py-12">
             <Image
               src="/assets/dips.webp"
               alt="dips"

@@ -103,9 +103,9 @@ export default function AboutPage() {
               <span className={`${Franchise.className} font-bold text-4xl`}>
                 MERN stack expertise:
               </span>{" "}
-              Specializing in MongoDB, Express.js, React.js, and Node.js, I
-              bring a comprehensive skill set to the table, ensuring end-to-end
-              development proficiency.
+              Specializing in MongoDB, Express.js, Nest.js, React.js, Next.js
+              and Node.js, I bring a comprehensive skill set to the table,
+              ensuring end-to-end development proficiency.
             </li>
             <li className="my-4">
               <span className={`${Franchise.className} font-bold text-4xl`}>

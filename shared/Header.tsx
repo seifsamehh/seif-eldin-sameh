@@ -164,6 +164,7 @@ export default function Header() {
           download="My-Resume😌.pdf"
           title="Resume"
           aria-label="Resume"
+          className="bg-[#00b5e7] text-[#181823] py-2 px-4 rounded"
         >
           Resume
         </Link>
