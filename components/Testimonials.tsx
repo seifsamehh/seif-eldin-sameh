@@ -219,7 +219,9 @@ export default function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-[#00b5e7] dark:text-gray-900">
             <p className="text-xl font-semibold leadi">Ahmed Osama</p>
-            <p className="text-sm uppercase">Lead in OI ROV</p>
+            <p className="text-sm uppercase">
+              Hardware and electrical lead in OI ROV
+            </p>
           </div>
         </div>
         {/* box 7 */}
@@ -254,7 +256,9 @@ export default function Testimonials() {
           </div>
           <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-[#00b5e7] dark:text-gray-900">
             <p className="text-xl font-semibold leadi">Soo Eldek</p>
-            <p className="text-sm uppercase">CS Student Obour Institutes</p>
+            <p className="text-sm uppercase">
+              Working in the field of currency trading
+            </p>
           </div>
         </div>
       </div>
