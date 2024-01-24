@@ -160,7 +160,7 @@ export default function Header() {
           </svg>
         </button>
         <Link
-          href={"/assets/Seif-Eldin-Sameh-full-stack-developer.pdf"}
+          href={"/assets/Seif-Eldin-Sameh-Full-Stack-Developer.pdf"}
           download="My-Resume😌.pdf"
           title="Resume"
           aria-label="Resume"
