@@ -20,7 +20,7 @@
 
 ## Demo
 
-[Demo](https://seif-eldin-sameh.vercel.app/)
+[Demo](https://seif-eldin-website.vercel.app/)
 
 ## Tech Stack
 
