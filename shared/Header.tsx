@@ -20,7 +20,7 @@ export default function Header() {
     let menuButton = document.getElementById("menu-button");
     let toggle = true;
 
-    gsap.set(".link", { y: 30 });
+    gsap.set(".link", { y: 30, autoAlpha: 0 }); // Set initial state for links
 
     menuAnimation
       .to(navMain, {
@@ -63,20 +63,20 @@ export default function Header() {
       });
 
     if (menuButton !== null) {
-      menuButton.onclick = function () {
+      menuButton.addEventListener("click", () => {
         toggle = !toggle;
         if (toggle === false) {
           menuAnimation.play(0);
         } else {
           menuAnimationBack.play(0);
         }
-      };
+      });
 
-      // Add code to close the menu when a link is clicked
       const links = document.querySelectorAll(".link");
       links.forEach((link) => {
         link.addEventListener("click", () => {
           if (toggle === false) {
+            toggle = true;
             menuAnimationBack.play(0);
           }
         });
