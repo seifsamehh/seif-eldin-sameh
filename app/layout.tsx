@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:
     "Welcome to my corner of the internet! I'm Seif Eldin Sameh, a seasoned MERN stack web developer with over 3 years of hands-on experience.",
   generator: "Next.js",
-  metadataBase: new URL("https://seif-eldin-sameh.vercel.app/"),
+  metadataBase: new URL("https://seif-eldin-website.vercel.app/"),
   alternates: {
     canonical: "/",
     languages: {
@@ -50,9 +50,11 @@ export const metadata: Metadata = {
     "Computer Science Degree",
     "Certifications",
     "Hire Me",
+    "Seif Eldin Sameh",
+    "Seif Eldin",
   ],
   authors: [
-    { name: "Seif Eldin Sameh", url: "https://seif-eldin-sameh.vercel.app/" },
+    { name: "Seif Eldin Sameh", url: "https://seif-eldin-website.vercel.app/" },
   ],
   creator: "Seif Eldin Sameh",
   publisher: "Seif Eldin Sameh",
@@ -103,7 +105,7 @@ export const metadata: Metadata = {
     title: "Seif Eldin Sameh | MERN Stack Web Developer",
     description:
       "Welcome to my corner of the internet! I'm Seif Eldin Sameh, a seasoned MERN stack web developer with over 3 years of hands-on experience.",
-    url: "https://seif-eldin-sameh.vercel.app/",
+    url: "https://seif-eldin-website.vercel.app/",
     siteName: "Seif Eldin Sameh | MERN Stack Web Developer",
     images: [
       {
@@ -127,7 +129,7 @@ export const metadata: Metadata = {
   verification: {
     google: "google",
     other: {
-      me: ["seiffsameh00@gmail.com", "https://seif-eldin-sameh.vercel.app/"],
+      me: ["seiffsameh00@gmail.com", "https://seif-eldin-website.vercel.app/"],
     },
   },
   robots: {
@@ -180,7 +182,7 @@ const website: WebsiteData = {
   "@context": "https://schema.org",
   "@type": "website",
   name: "Seif Eldin",
-  url: "https://seif-eldin-sameh.vercel.app/",
+  url: "https://seif-eldin-website.vercel.app/",
   logo: "https://i.imgur.com/KBSQCIy.png",
   favicon: "https://i.imgur.com/KBSQCIy.png",
   address: {
