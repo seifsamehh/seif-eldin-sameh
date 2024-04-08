@@ -32,6 +32,6 @@
 
 | Color           | Hex                                                              |
 | --------------- | ---------------------------------------------------------------- |
-| Main Color      | ![#181823](https://via.placeholder.com/10/181823?text=+) #181823 |
-| Secondary Color | ![#f6f1f1](https://via.placeholder.com/10/f6f1f1?text=+) #f6f1f1 |
-| Tertiary Color  | ![#00b5e7](https://via.placeholder.com/10/00b5e7?text=+) #00b5e7 |
+| Main Color      | ![#181823](https://via.placeholder.com/10/181823?text=+) |
+| Secondary Color | ![#f6f1f1](https://via.placeholder.com/10/f6f1f1?text=+) |
+| Tertiary Color  | ![#00b5e7](https://via.placeholder.com/10/00b5e7?text=+) |
